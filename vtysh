@@ -1,0 +1,28 @@
+#!/bin/sh
+clear
+ifconfig eth0:0 10.0.2.15 netmask 255.0.0.0&
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo
+echo "******************************************************"
+echo
+echo "         Welcome to GoGloud Firmware Kitchen"
+echo "                      --------"
+echo "                     sRetia Lab"
+echo
+echo "******************************************************"
+echo
+echo
+echo Please visit http://127.0.0.1:41080 at your host PC.
+echo
+echo
+echo
+echo
+echo
+echo

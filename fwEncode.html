@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link href="asset/style.css" rel="stylesheet" type="text/css"/>
+    <link href="asset/cascade.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="bodydiv" style="overflow-x:auto;">
+        <table id="maincontainer" cellspacing="13">
+            <tr id="maintr">
+                <td style=" WORD-BREAK:BREAK-ALL;" valign="top">
+                    <div class="maincontent">
+                        <form method="post" action="/fwEncode.php" enctype="multipart/form-data">
+                            <fieldset class="xtabstyle">
+                                <ul class="cbi-xtabmenu">
+                                    <li class="cbi-xtab"><a href="#"><span>固件加密</span></a></li>
+                                </ul>
+                            </fieldset>
+                            <fieldset class="cbi-section">
+                                <div class="cbi-map-descr">
+                                    加密新打包的固件，通常适用于固件打包发行时使用。
+                                </div>
+                                <fieldset class="cbi-section" id="cbi-network-wan">
+                                    <div class="cbi-section-node cbi-value-last" id="cbi-network-wan">
+
+                                        <div class="cbi-value cbi-rowstyle-1">
+                                            <label class="cbi-value-title">固件</label>
+                                            <div class="cbi-value-field">
+                                                <input name="image" class="cbi-input-file" type="file" />
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                <br/></fieldset><br/>
+                            </fieldset>
+                            <div class="cbi-page-actions">
+                                <input class="cbi-button cbi-button-apply" value="上传&amp;加密" type="submit" />
+                                <!--<input class="cbi-button cbi-button-reset" value="清除" type="reset" />-->
+                            </div>
+                        </form>
+                        <div class="clear"></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
